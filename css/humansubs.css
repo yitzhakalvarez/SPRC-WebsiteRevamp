@@ -1,0 +1,340 @@
+/* Homepage */
+.desktop {
+  width: 100%;
+  height: 1024px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+/* Rectangle FAQs */
+.rectanglefaqs {
+  position: absolute;
+  width: 135px;
+  height: 44px;
+  left: 834px;
+  top: 711px;
+
+  background: #003e7e;
+  box-shadow: -13px 7px 0px -2px rgba(0, 0, 0, 0.27);
+}
+
+/* Rectangle News */
+.rectanglenews {
+  position: absolute;
+  width: 135px;
+  height: 44px;
+  left: 353px;
+  top: 711px;
+
+  background: #003e7e;
+  box-shadow: -13px 7px 0px -2px rgba(0, 0, 0, 0.27);
+}
+
+/* Rectangle 1 */
+.rectangle1 {
+  position: absolute;
+  width: 972px;
+  height: 329px;
+  left: 234px;
+  top: 695px;
+
+  background: #cbcfd2;
+  background-blend-mode: multiply;
+  border-radius: 50px;
+}
+
+/* Rectangle FAQs Text */
+.rectanglefaqstext {
+  position: absolute;
+  width: 248px;
+  height: 246px;
+  left: 790px;
+  top: 763px;
+
+  background: rgba(216, 216, 216, 0.6);
+  background-blend-mode: multiply;
+  border-radius: 50px;
+}
+
+/* Old Main Building 2 */
+.oldmainbuilding {
+  position: absolute;
+  width: 1440px;
+  height: 509px;
+  left: 0px;
+  top: 0px;
+
+  background: url('../OldMain.jpg');
+}
+
+/* Welcome to Sponsored Programs & Research Compliance! */
+.sprc {
+  position: absolute;
+  width: 650px;
+  left: 300px;
+  top: 220px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 41px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+/* SUNY New Paltz */
+.sunynp {
+  position: absolute;
+  width: 232px;
+  height: 23px;
+  left: 13px;
+  top: 539px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 34px;
+
+  color: #003e7e;
+}
+
+/* row 1 */
+.row1 {
+  position: absolute;
+  width: 900px;
+  left: 750px;
+  top: 539px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 34px;
+
+  color: #003e7e;
+}
+.navbar {
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  font-size: 25px;
+  color: #003e7e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color: #003e7e;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #f58426;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.nav .search-container {
+  float: right;
+}
+
+.nav input[type='text'] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.nav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.nav .search-container button:hover {
+  background: #ccc;
+}
+
+/* row 2 */
+.row2 {
+  position: absolute;
+  width: 900px;
+  right: 250px;
+  top: 590px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+
+  color: #003e7e;
+}
+
+/* Rectangle box */
+.rectanglebox {
+  width: 400px;
+  height: 313px;
+  background: rgba(203, 206, 210, 1);
+  opacity: 1;
+  position: absolute;
+  top: 660px;
+  left: 225px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+
+/* News text */
+.newstext {
+  width: 136px;
+  color: #003e7e;
+  position: absolute;
+  top: 676px;
+  left: 352px;
+  font-family: Arial;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+
+/* News textbox */
+.textbox {
+  width: 248px;
+  height: 234px;
+  background: rgba(215, 215, 215, 0.6000000238418579);
+  opacity: 1;
+  position: absolute;
+  top: 725px;
+  left: 304px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+
+/* News Text Goes Here */
+.text {
+  width: 210px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 738px;
+  left: 323px;
+  font-family: Arial;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+
+/* Rectangle box 1*/
+.rectanglebox1 {
+  width: 400px;
+  height: 313px;
+  background: rgba(203, 206, 210, 1);
+  opacity: 1;
+  position: absolute;
+  top: 660px;
+  right: 225px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+
+/* FAQs text */
+.faqstext {
+  width: 136px;
+  color: #003e7e;
+  position: absolute;
+  top: 676px;
+  right: 352px;
+  font-family: Arial;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+
+/* FAQS textbox */
+.textbox1 {
+  width: 248px;
+  height: 234px;
+  background: rgba(215, 215, 215, 0.6000000238418579);
+  opacity: 1;
+  position: absolute;
+  top: 725px;
+  right: 304px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+
+/* FAQs Text Goes Here */
+.text1 {
+  width: 210px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 738px;
+  right: 323px;
+  font-family: Arial;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
