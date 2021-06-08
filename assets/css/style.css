@@ -563,13 +563,13 @@ a:hover {
   display: inline-block;
 }
 
-.news {
+.faqs {
   font-family: 'Oswald', sans-serif;
 }
 
-.news .image-block li > .image-block-inner h4,
+.faqs .image-block li > .image-block-inner h4,
 .hp-posts-cat,
-.news .image-block li > .image-block-inner p,
+.faqs .image-block li > .image-block-inner p,
 .read-more {
   padding: 0 28px;
 }
