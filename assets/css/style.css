@@ -498,6 +498,18 @@ a:hover {
   }
 }
 
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .news h2 {
+    padding-top: 50px;
+  }
+  .faqs h2 {
+    padding-top: 50px;
+  }
+}
+
 /*--------------------------------------------------------------
   # FAQs Section
   --------------------------------------------------------------*/
