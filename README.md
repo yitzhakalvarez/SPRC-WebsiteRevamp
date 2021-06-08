@@ -8,7 +8,7 @@ This repository documents my work done for the SPRC department.
 
         Name: Yitzhak Alvarez
         Major: Computer Science
-        Email: alvarezy3@hawkmail.newpaltz.edu
+        Email: alvarezy3@newpaltz.edu
 
 2.  **Supervisors:** <br>
     <a href="mailto:merrillr@newpaltz.edu">Roseann Merrill</a> <br>
