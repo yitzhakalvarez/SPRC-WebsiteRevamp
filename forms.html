@@ -15,7 +15,6 @@
     <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
     <!-- Template Main CSS File -->
     <link href="assets/css/forms.css" rel="stylesheet">
-    <link href="assets/css/searchfilter.css" rel="stylesheet">
 </head>
 
 <body>
@@ -138,36 +137,11 @@
                         </ul>
                     </ul>
                 </div> <!-- End of A-Z index list -->
-                <div class="row">
-                    <div class="col-xs-8 col-xs-offset-2">
-                        <div class="input-group">
-                            <div class="input-group-btn search-panel">
-                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                                    <span id="search_concept">Filter by</span> <span class="caret"></span>
-                                </button>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="#contains">Contains</a></li>
-                                    <li><a href="#its_equal">It's equal</a></li>
-                                    <li><a href="#greather_than">Greather than ></a></li>
-                                    <li><a href="#less_than">Less than < </a>
-                                    </li>
-                                    <li class="divider"></li>
-                                    <li><a href="#all">Anything</a></li>
-                                </ul>
-                            </div>
-                            <input type="hidden" name="search_param" value="all" id="search_param">
-                            <input type="text" class="form-control" name="x" placeholder="Search term...">
-                            <span class="input-group-btn">
-                                <button class="btn btn-default" type="button">
-                                    <span class="glyphicon glyphicon-search"></span>
-                                </button>
-                            </span>
-                        </div>
-                    </div>
-                </div>
             </div>
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for a file..."
+                title="Type in a name">
             <!-- A-Z Index List -->
-            <table style="height: 292px; width: 580px; margin-left: 10px;" border="0">
+            <table id="myTable" , style="height: 292px; width: 580px; margin-left: 10px;" border="0">
                 <tbody>
                     <tr>
                         <td style="text-align: right;">&nbsp;</td>
@@ -175,8 +149,7 @@
                     </tr>
                     <tr>
                         <td><strong><a id="A"></a>A</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td style="text-align: left;" colspan="2" align="left">
@@ -223,8 +196,7 @@
                     </tr>
                     <tr>
                         <td><strong><a id="B"></a>B</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td colspan="2">
@@ -250,8 +222,7 @@
                     </tr>
                     <tr>
                         <td><strong><a id="C"></a>C</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td colspan="2">
@@ -299,8 +270,7 @@
                                     Conflict of Interest (PDF)</a>
                             </p>
                             <p>
-                                <a href="https://www.rfsuny.org/media/rfsuny/policies/coi-phs_pol.htm">SUNY/RF
-                                    Policy on
+                                <a href="https://www.rfsuny.org/media/rfsuny/policies/coi-phs_pol.htm">SUNY/RF Policy on
                                     Conflicts of Interest in PHS Sponsored Programs (PDF)</a>
                             </p>
                             <p>
@@ -334,8 +304,7 @@
                     </tr>
                     <tr>
                         <td><strong><a id="D"></a>D</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td colspan="2">
@@ -343,8 +312,7 @@
                     </tr>
                     <tr>
                         <td><strong><a id="E"></a>E</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td colspan="2">
@@ -357,8 +325,7 @@
                     </tr>
                     <tr>
                         <td><strong><a id="F"></a>F</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td colspan="2">
@@ -366,16 +333,14 @@
                     </tr>
                     <tr>
                         <td><strong><a id="G"></a>G</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td colspan="2">&nbsp;</td>
                     </tr>
                     <tr>
                         <td><strong><a id="H"></a>H</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td colspan="2">
@@ -487,8 +452,7 @@
                     </tr>
                     <tr>
                         <td><strong><a id="I"></a>I</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td colspan="2">
@@ -496,8 +460,7 @@
                     </tr>
                     <tr>
                         <td><strong><a id="J"></a>J</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td colspan="2">
@@ -505,16 +468,14 @@
                     </tr>
                     <tr>
                         <td><strong><a id="K"></a>K</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td style="text-align: right;" colspan="2" align="left">&nbsp;</td>
                     </tr>
                     <tr>
                         <td><strong><a id="L"></a>L</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td style="text-align: right;" colspan="2" align="left">
@@ -522,8 +483,7 @@
                     </tr>
                     <tr>
                         <td><strong><a id="M"></a>M</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td style="text-align: right;" colspan="2" align="left">
@@ -531,8 +491,7 @@
                     </tr>
                     <tr>
                         <td><strong><a id="N"></a>N</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td style="text-align: right;" colspan="2" align="left">
@@ -540,8 +499,7 @@
                     </tr>
                     <tr>
                         <td><strong><a id="O"></a>O</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td style="text-align: right;" align="left">
@@ -550,8 +508,7 @@
                     </tr>
                     <tr>
                         <td><strong><a id="P"></a>P</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td style="text-align: right;" colspan="2" align="left">
@@ -559,16 +516,14 @@
                     </tr>
                     <tr>
                         <td><strong><a id="Q"></a>Q</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td style="text-align: left;" colspan="2" align="left">&nbsp;</td>
                     </tr>
                     <tr>
                         <td><strong><a id="R"></a>R</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td style="text-align: left;" colspan="2" align="left">
@@ -576,8 +531,7 @@
                     </tr>
                     <tr>
                         <td><strong><a id="S"></a>S</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td style="text-align: left;" colspan="2" align="left">
@@ -585,8 +539,7 @@
                     </tr>
                     <tr>
                         <td><strong><a id="T"></a>T</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td style="text-align: left;" colspan="2" align="left">
@@ -646,16 +599,14 @@
                     </tr>
                     <tr>
                         <td><strong><a id="U"></a>U</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td style="text-align: left;" colspan="2" align="left">&nbsp;</td>
                     </tr>
                     <tr>
                         <td><strong><a id="V"></a>V</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td style="text-align: left;" colspan="2" align="left">
@@ -663,8 +614,7 @@
                     </tr>
                     <tr>
                         <td><strong><a id="W"></a>W</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td style="text-align: left;" colspan="2" align="left">
@@ -672,24 +622,21 @@
                     </tr>
                     <tr>
                         <td><strong><a id="X"></a>X</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td style="text-align: left;" colspan="2" align="left">&nbsp;</td>
                     </tr>
                     <tr>
                         <td><strong><a id="Y"></a>Y</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td style="text-align: left;" colspan="2" align="left">&nbsp;</td>
                     </tr>
                     <tr>
                         <td><strong><a id="Z"></a>Z</strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
-                        </td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
                     </tr>
                     <tr>
                         <td style="text-align: left;" colspan="2" align="left">&nbsp;</td>
@@ -698,18 +645,12 @@
             </table>
             <p style="text-align: right;">&nbsp;</p><br /> <!-- End of A-Z Index List -->
         </section>
-    </main><!-- End #main -->
+    </main><!-- End main -->
     <!-- Vendor JS Files -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
     <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
-    <script>
-        const choices = new Choices('[data-trigger]',
-            {
-                searchEnabled: false
-            });
-    </script>
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
 </body>
