@@ -9,6 +9,7 @@
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i&subset=cyrillic"
         rel="stylesheet">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
@@ -129,25 +130,10 @@
                     </ul>
                 </div> <!-- End of A-Z index list -->
             </div>
-            <!-- Search Filter for A-Z index -->
-            <div class="wrapper">
-                <div class="search_box">
-                    <div class="dropdown">
-                        <div class="default_option">All</div>
-                        <ul>
-                            <li>All</li>
-                            <li>Policies and Procedures</li>
-                            <li>Forms</li>
-                        </ul>
-                    </div>
-                    <div class="search_field">
-                        <input type="text" class="input" placeholder="Search for list...">
-                        <i class='bx bx-search'></i>
-                    </div>
-                </div>
-            </div> <!-- End of Search Filter -->
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for a file..."
+                title="Type in a name">
             <!-- A-Z Index List -->
-            <table style="height: 292px; width: 580px; margin-left: 10px;" border="0">
+            <table id="myTable" , style="height: 292px; width: 580px; margin-left: 10px;" border="0">
                 <tbody>
                     <tr>
                         <td style="text-align: right;">&nbsp;</td>
@@ -657,13 +643,6 @@
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
     <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
-    <script>
-        const choices = new Choices('[data-trigger]',
-            {
-                searchEnabled: false
-            });
-    </script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
 </body>
