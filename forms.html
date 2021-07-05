@@ -4,27 +4,21 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
     <title>SUNY New Paltz | Sponsored Programs & Research Compliance</title>
-
     <!-- Google Fonts -->
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i&subset=cyrillic"
         rel="stylesheet">
-
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-
     <!-- Template Main CSS File -->
     <link href="assets/css/forms.css" rel="stylesheet">
+    <link href="assets/css/searchfilter.css" rel="stylesheet">
 </head>
 
 <body>
-
     <!-- ======= Intro Section ======= -->
     <div id="home" class="intro route bg-image" style="background-image: url(../assets/img/OldMainBuilding1.jpg)">
         <div class="overlay-itro"></div>
@@ -105,13 +99,13 @@
     </header><!-- End Header -->
 
     <main id="main">
-
         <!-- ======= POLICIES AND PROCEDURES Section ======= -->
         <section>
             <div class="container">
                 <div class="section-title">
                     <h2>Forms</h2>
                 </div>
+                <!-- A-Z index list -->
                 <div id="azindex">
                     <ul id="index">
                         <ul>
@@ -143,10 +137,37 @@
                             <li><a href="#Z">Z</a></li>
                         </ul>
                     </ul>
+                </div> <!-- End of A-Z index list -->
+                <div class="row">
+                    <div class="col-xs-8 col-xs-offset-2">
+                        <div class="input-group">
+                            <div class="input-group-btn search-panel">
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                    <span id="search_concept">Filter by</span> <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#contains">Contains</a></li>
+                                    <li><a href="#its_equal">It's equal</a></li>
+                                    <li><a href="#greather_than">Greather than ></a></li>
+                                    <li><a href="#less_than">Less than < </a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li><a href="#all">Anything</a></li>
+                                </ul>
+                            </div>
+                            <input type="hidden" name="search_param" value="all" id="search_param">
+                            <input type="text" class="form-control" name="x" placeholder="Search term...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
                 </div>
-
             </div>
-            <table style="height: 292px; width: 582px;" border="0">
+            <!-- A-Z Index List -->
+            <table style="height: 292px; width: 580px; margin-left: 10px;" border="0">
                 <tbody>
                     <tr>
                         <td style="text-align: right;">&nbsp;</td>
@@ -154,189 +175,372 @@
                     </tr>
                     <tr>
                         <td><strong><a id="A"></a>A</strong></td>
-                        <td style="text-align: right;"><a href="#Top"><strong>Top</strong></a></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
+                        </td>
                     </tr>
                     <tr>
                         <td style="text-align: left;" colspan="2" align="left">
-                            <p><a href="https://www.newpaltz.edu/sponsored_programs/research_foundation-forms.html">Independent
-                                    Contractor Procedure</a></p>
-                            <p><a
-                                    href="https://www.newpaltz.edu/media/sponsored-programs/policystatementforanimalusage.pdf">Animal
-                                    Use - Policy Statement</a></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;<strong>B<a id="B"></a></strong></td>
-                        <td style="text-align: right;">&nbsp;<a href="#Top"><strong>Top</strong></a></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
-                            <p><a href="https://www.newpaltz.edu/sponsored_programs/personnelparticulars.html">Institutional
-                                    Base Salary</a>
+                            <p>
+                                <a href="#">Order
+                                    Complete Form (Excel)</a>
                             </p>
-                            <p><a href="https://www.newpaltz.edu/sponsored_programs/budgetdev.html">Budget
-                                    Development</a></p>
-                            <p><a
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/Participant%20Stipend%20Form%20-%205.24.2018.pdf">Participant
+                                    Stipend Form (PDF)</a>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/Fillable%20RF%20Purchase%20Requisition%204.9.18-1.pdf">RF
+                                    Purchase Requisition Form (PDF)</a>
+                            </p>
+                            <p>
+                                <a href="https://www.irs.gov/pub/irs-pdf/fw9.pdf">W-9 (PDF)</a>
+                            </p>
+                            <p>
+                                <a href="#">Export
+                                    Control Survey (Word)</a>
+                            </p>
+                            <p>
+                                <a href="https://www.newpaltz.edu/sponsored_programs/research_foundation-forms.html">Independent
+                                    Contractor Procedure (PDF)</a>
+                            </p>
+                            <p>
+                                <a href="https://www.newpaltz.edu/media/sponsored-programs/animaluse_protocol.pdf">Animal
+                                    Use - Protocol (PDF)</a>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/policystatementforanimalusage.pdf">Animal
+                                    Use - Policy Statement (PDF)</a>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/Independent%20Contractor%20Working%20Relationship%20Form%208.14.20.pdf">Independent
+                                    Contractor Working Relationship Form (PDF)</a>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong><a id="B"></a>B</strong></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p>
+                                <a href="https://www.newpaltz.edu/sponsored_programs/budgetdev.html">Budget
+                                    Development (Webpage)</a>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/IBC%20Form%202019%20update%20-%20Fillable.pdf">Research/Instruction
+                                    Involving Recombinant and Synthetic Nucleic Acid Molecules (PDF)</a>
+                            </p>
+                            <p>
+                                <a
                                     href="https://www.newpaltz.edu/media/sponsored-programs/Research%20Involving%20Recombinant%20DNA%20Molecules%20Policy.pdf">Research
-                                    Involving Recombinant DNA Molecules Policy</a></p>
+                                    Involving Recombinant DNA Molecules Policy (PDF)</a>
+                            </p>
+                            <p>
+                                <a href="https://www.newpaltz.edu/sponsored_programs/personnelparticulars.html">Institutional
+                                    Base Salary (PDF)</a>
+                            </p>
                         </td>
                     </tr>
                     <tr>
-                        <td><strong>C<a id="C"></a></strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a></td>
+                        <td><strong><a id="C"></a>C</strong></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
+                        </td>
                     </tr>
                     <tr>
                         <td colspan="2">
-                            <p><a href="http://www.rfsuny.org/media/rfsuny/policies/code_of_conduct.pdf">Code of
-                                    Conduct</a></p>
-                            <p><a
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/SUNY%20and%20RF%20Research%20Restarting%20Guidelines%20and%20Resources.pdf">SUNY
+                                    and RF
+                                    Research Restarting Guidelines and Resources (PDF)</a>
+                            </p>
+                            <p>
+                                <a href="https://www.rfsuny.org/About-Us/COVID-19/">Research
+                                    Foundation (RF) COVID-19 Webpage (PDF)</a>
+                            </p>
+                            <p>
+                                <a href="http://www.rfsuny.org/media/rfsuny/policies/code_of_conduct.pdf">Code
+                                    of Conduct (PDF)</a>
+                            </p>
+                            <p>
+                                <a
                                     href="https://www.newpaltz.edu/media/sponsored-programs/NSF%20Responsible%20Conduct%20of%20Research%20Policy%20-%20Procedures%2009-18-2017-1.pdf">Responsible
-                                    Conduct of Research Policy and Procedures</a></p>
-                            <p><a
+                                    Conduct of Research Policy and Procedures (PDF)</a>
+                            </p>
+                            <p>
+                                <a
                                     href="https://www.newpaltz.edu/media/sponsored-programs/SUNY%20Research%20Integrity%20Statement.pdf">SUNY
-                                    Research Integrity Statement</a></p>
-                            <p><a href="https://www.rfsuny.org/media/RFSUNY/Policies/nepotism_policy_pol.htm">RF
-                                    Nepotism Policy</a></p>
-                            <p><a href="https://www.newpaltz.edu/media/sponsored-programs/SUNY%20and%20RF%20Research%20Restarting%20Guidelines%20and%20Resources.pdf"
-                                    target="_Blank">SUNY and RF Research Restarting Guidelines and Resources</a></p>
-                            <p><a href="/information-for/corporate-fact-sheet-/">Corporate Fact Sheet&nbsp;</a></p>
+                                    Research Integrity Statement (PDF)</a>
+                            </p>
+                            <p>
+                                <a href="https://www.rfsuny.org/media/RFSUNY/Policies/nepotism_policy_pol.htm">RF
+                                    Nepotism Policy (PDF)</a>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/Misconduct%20in%20Science.pdf">Misconduct
+                                    in Science (PDF)</a>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/SUNY%20NP%20Conflict%20of%20Interest%20Policy%20and%20Procedures.pdf">SUNY
+                                    NP Conflict of Interest Policy and Procedures (PDF)</a>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/NSF%20Conflict%20of%20Interest.pdf">NSF
+                                    Conflict of Interest (PDF)</a>
+                            </p>
+                            <p>
+                                <a href="https://www.rfsuny.org/media/rfsuny/policies/coi-phs_pol.htm">SUNY/RF
+                                    Policy on
+                                    Conflicts of Interest in PHS Sponsored Programs (PDF)</a>
+                            </p>
+                            <p>
+                                <a href="#">SUNY System COI Policy (PDF)</a>
+                            </p>
+                            <p>
+                                <a href="https://www.newpaltz.edu/media/sponsored-programs/federalregisterfcoi.pdf">Federal
+                                    Register Final Rule: Responsibility of Applicants for Promoting Objectivity in
+                                    Research for which Public Health Service Funding Sought (PDF)</a>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/Basic%20Sponsored%20Programs%20Policies.pdf">Basic
+                                    Sponsored Programs Policies (PDF)</a>
+                            </p>
+                            <p>
+                                <a href="https://www.rfsuny.org/media/RFSUNY/Policies/per_drug-free-workplace_pol.htm">Drug-Free
+                                    Workplace Policy (PDF)</a>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/Extra%20Service%20Policy.pdf">Extra
+                                    Service Policy (PDF)</a>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/SUNY%20New%20Paltz%20Indirect%20Cost%20Waiver%20Policy.pdf">SUNY
+                                    New Paltz Indirect Cost Waiver Policy (PDF)</a>
+                            </p>
                         </td>
                     </tr>
                     <tr>
-                        <td><strong>&nbsp;D<a id="D"></a></strong></td>
-                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;</td>
+                        <td><strong><a id="D"></a>D</strong></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
+                        </td>
                     </tr>
                     <tr>
                         <td colspan="2">
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <p><strong>E<a id="E"></a></strong></p>
+                        <td><strong><a id="E"></a>E</strong></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
                         </td>
-                        <td style="text-align: right;">&nbsp;&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a></td>
                     </tr>
                     <tr>
                         <td colspan="2">
-                            <p><a
+                            <p>
+                                <a
                                     href="https://www.newpaltz.edu/media/sponsored-programs/Research%20Foundation%20Request%20to%20Hire%20form-1.pdf">Employee
-                                    of the Research Foundation Handbook</a></p>
+                                    of the Research Foundation Handbook (PDF)</a>
+                            </p>
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <p><strong>F<a id="F"></a></strong></p>
+                        <td><strong><a id="F"></a>F</strong></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
                         </td>
-                        <td style="text-align: right;">&nbsp;&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a></td>
                     </tr>
                     <tr>
                         <td colspan="2">
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <p><strong>G<a id="G"></a></strong></p>
+                        <td><strong><a id="G"></a>G</strong></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
                         </td>
-                        <td style="text-align: right;">&nbsp;<a href="#Top"><strong>Top</strong></a></td>
                     </tr>
                     <tr>
                         <td colspan="2">&nbsp;</td>
                     </tr>
                     <tr>
-                        <td>
-                            <p><strong>H<a id="H"></a></strong></p>
+                        <td><strong><a id="H"></a>H</strong></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
                         </td>
-                        <td style="text-align: right;"><a href="#Top"><strong>Top</strong></a></td>
                     </tr>
                     <tr>
                         <td colspan="2">
-                            <p><a
-                                    href="https://www.newpaltz.edu/media/sponsored-programs/2018%20EEO%20Policy%20Statement.pdf">Equal
-                                    Employment Opportunity Policy Statement</a><strong><br></strong></p>
-                            <p><a
-                                    href="https://www.newpaltz.edu/media/sponsored-programs/RF%20Reaffirmation%20of%20Equal%20Employment%20Opportunity%20(EEO)%20Policy.pdf">RF
-                                    Reaffirmation of Equal Employment Opportunity (EEO) Policy</a><strong><br></strong>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/Research%20Foundation%20Request%20to%20Hire%20form-1.pdf">Hire
+                                    RF Employee Request Form (PDF)</a><strong><br></strong>
                             </p>
-                            <p><a
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/RF%20Employee%20Assignment%20Form-1.pdf">RF
+                                    Employee Assignment Form (PDF)</a><strong><br></strong>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/Research%20Foundation%20Change%20Form.pdf">Research
+                                    Foundation Change Form (PDF)</a><strong><br></strong>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/RF%20-%20Retirement%20Prior%20Service%20Credit%20Form%20-%206.13.19.pdf">RF
+                                    Request For Retirement Service Credit Based on Prior Employment
+                                    (PDF)</a><strong><br></strong>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/RF%20Monthly%20Exempt%20Exception%20Report.pdf">RF
+                                    Monthly Exempt Exception Report (PDF)</a><strong><br></strong>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/RF%20Professional%20Non-exempt%20Biweekly%20time%20sheet.pdf">RF
+                                    Professional Non-Exempt Biweekly Time Sheet (PDF)</a><strong><br></strong>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/RF%20Non-exempt%20Bi-weekly%20time%20sheet.pdf">RF
+                                    Non-exempt Bi-Weekly Time Sheet (PDF)</a><strong><br></strong>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/RF%20Regular%20Hourly%20Time%20Sheet%20-%20Old%20Main%20B120.pdf">RF
+                                    Regular Hourly Time Sheet (PDF)</a><strong><br></strong>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/RF%20Student%20Hourly%20Time%20Sheet.pdf">RF
+                                    Student Hourly Time Sheet (PDF)</a><strong><br></strong>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/2018%20EEO%20Policy%20Statement.pdf">Equal
+                                    Employment Opportunity Policy Statement (PDF)</a><strong><br></strong>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/RF%20Reaffirmation%20of%20Equal%20Employment%20Opportunity%20(EEO)%20Policy.pdf">RF
+                                    Reaffirmation of Equal Employment Opportunity (EEO) Policy
+                                    (PDF)</a><strong><br></strong>
+                            </p>
+                            <p>
+                                <a
                                     href="https://www.newpaltz.edu/media/sponsored-programs/Research%20Foundation%20Employee%20Handbook.pdf">Research
-                                    Foundation Employee Handbook</a><strong><br></strong></p>
-                            <p><a
+                                    Foundation Employee Handbook (PDF)</a><strong><br></strong>
+                            </p>
+                            <p>
+                                <a
                                     href="https://www.newpaltz.edu/media/sponsored-programs/E-time%20Reporting%20Guide%20for%20Supervisors-1.pdf">E-Time
-                                    Reporting Guide for Supervisors</a><strong><br></strong></p>
-                            <p><a
+                                    Reporting Guide for Supervisors (PDF)</a><strong><br></strong>
+                            </p>
+                            <p>
+                                <a
                                     href="https://www.newpaltz.edu/media/sponsored-programs/E-time%20Reporting%20Guide%20for%20Nonexempt%20Employees-1.pdf">E-Time
-                                    Reporting Guide for Nonexempt Employees</a><strong><br></strong></p>
-                            <p><a
+                                    Reporting Guide for Nonexempt Employees (PDF)</a><strong><br></strong>
+                            </p>
+                            <p>
+                                <a
                                     href="https://www.newpaltz.edu/media/sponsored-programs/E-time%20Reporting%20Guide%20for%20Exempt%20Employees-1.pdf">E-Time
-                                    Reporting Guide for Exempt Employees</a><strong><br></strong></p>
-                            <p><a
-                                    href="https://www.newpaltz.edu/media/sponsored-programs/E-time%20Reporting%20Guide%20for%20Exempt%20Employees-1.pdf">E-Time
-                                    Reporting Guide for Exempt Employees</a><strong><br></strong></p>
+                                    Reporting Guide for Exempt Employees (PDF)</a><strong><br></strong>
+                            </p>
+                            <p>
+                                <a href="https://sunyrf.webex.com/sunyrf/ldr.php?RCID=ba992e029cd9c8e776f5d4b44d8e86f6">Exempt
+                                    Time Reporting Demo (Video)</a><strong><br></strong>
+                            </p>
+                            <p>
+                                <a href="https://sunyrf.webex.com/sunyrf/ldr.php?RCID=619c9ea65f50a1fcf46e882ea200d3e6">Non-Exempt
+                                    Salaried and Hourly Time Reporting Demo (Video)</a><strong><br></strong>
+                            </p>
+                            <p>
+                                <a href="https://sunyrf.webex.com/sunyrf/ldr.php?RCID=bafbe52dde74680226d02233138e758e">Supervisor
+                                    Time Reporting Demo (Video)</a><strong><br></strong>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/Bi-weekly%20Non-exempt%20Employee%20PAYROLL%20SCHEDULE%202020-21.pdf">Bi-Weekly
+                                    Non-Exempt Employee Payroll Schedule 2020-2021 (PDF)</a><strong><br></strong>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/Bi-weekly%20HOURLY%20Employee%20Payroll%20Schedule%202020-2021.pdf">Bi-Weekly
+                                    Hourly Employee Payroll Schedule 2020-2021 (PDF)</a><strong><br></strong>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/Research%20Foundation%20Holiday%20Calendar%202021.pdf">Research
+                                    Foundation Holiday Calendar 2021 (PDF)</a><strong><br></strong>
+                            </p>
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <p><strong>I<a id="I"></a></strong></p>
+                        <td><strong><a id="I"></a>I</strong></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
                         </td>
-                        <td align="right">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a></td>
                     </tr>
                     <tr>
                         <td colspan="2">
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <p><strong>J<a id="J"></a></strong></p>
+                        <td><strong><a id="J"></a>J</strong></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
                         </td>
-                        <td align="right">&nbsp;<a href="#Top"><strong>Top</strong></a></td>
                     </tr>
                     <tr>
                         <td colspan="2">
                         </td>
                     </tr>
                     <tr>
-                        <td>&nbsp;<strong>K<a id="K"></a></strong></td>
-                        <td style="text-align: right;"><a href="#Top"><strong>Top</strong></a></td>
+                        <td><strong><a id="K"></a>K</strong></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
+                        </td>
                     </tr>
                     <tr>
                         <td style="text-align: right;" colspan="2" align="left">&nbsp;</td>
                     </tr>
                     <tr>
-                        <td style="text-align: right;" align="left">
-                            <p align="left"><strong>L<a id="L"></a></strong></p>
+                        <td><strong><a id="L"></a>L</strong></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
                         </td>
-                        <td style="text-align: right;" align="left"><a href="#Top"><strong>Top</strong></a></td>
                     </tr>
                     <tr>
                         <td style="text-align: right;" colspan="2" align="left">
                         </td>
                     </tr>
                     <tr>
-                        <td style="text-align: right;" align="left">
-                            <p style="text-align: left;"><strong>M<a id="M"></a></strong></p>
+                        <td><strong><a id="M"></a>M</strong></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
                         </td>
-                        <td style="text-align: right;" align="left"><a href="#Top"><strong>Top</strong></a></td>
                     </tr>
                     <tr>
                         <td style="text-align: right;" colspan="2" align="left">
                         </td>
                     </tr>
                     <tr>
-                        <td style="text-align: right;" align="left">
-                            <p style="text-align: left;"><strong>N<a id="N"></a></strong></p>
+                        <td><strong><a id="N"></a>N</strong></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
                         </td>
-                        <td style="text-align: right;" align="left"><a href="#Top"><strong>Top</strong></a></td>
                     </tr>
                     <tr>
                         <td style="text-align: right;" colspan="2" align="left">
                         </td>
                     </tr>
                     <tr>
-                        <td style="text-align: right;" align="left">
-                            <p style="text-align: left;"><strong>O<a id="O"></a></strong></p>
-                        </td>
-                        <td style="text-align: right;" align="left">
-                            <p><strong><a href="#Top"><strong>Top</strong></a></strong></p>
+                        <td><strong><a id="O"></a>O</strong></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
                         </td>
                     </tr>
                     <tr>
@@ -345,11 +549,8 @@
                         <td style="text-align: right;" align="left">&nbsp;</td>
                     </tr>
                     <tr>
-                        <td style="text-align: right;" align="left">
-                            <p style="text-align: left;"><strong>P<a id="P"></a></strong></p>
-                        </td>
-                        <td style="text-align: right;" align="left">
-                            <p><strong><strong><a href="#Top"><strong>Top</strong></a></strong></strong></p>
+                        <td><strong><a id="P"></a>P</strong></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
                         </td>
                     </tr>
                     <tr>
@@ -357,122 +558,160 @@
                         </td>
                     </tr>
                     <tr>
-                        <td style="text-align: right;" align="left">
-                            <p style="text-align: left;"><strong>Q</strong></p>
+                        <td><strong><a id="Q"></a>Q</strong></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
                         </td>
-                        <td style="text-align: right;" align="left"><a href="#Top"><strong>Top</strong></a></td>
                     </tr>
                     <tr>
                         <td style="text-align: left;" colspan="2" align="left">&nbsp;</td>
                     </tr>
                     <tr>
-                        <td style="text-align: left;" align="left">
-                            <p style="text-align: left;"><strong>R<a id="R"></a></strong></p>
+                        <td><strong><a id="R"></a>R</strong></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
                         </td>
-                        <td style="text-align: right;" align="left"><a href="#Top"><strong>Top</strong></a></td>
                     </tr>
                     <tr>
                         <td style="text-align: left;" colspan="2" align="left">
                         </td>
                     </tr>
                     <tr>
-                        <td style="text-align: left;" align="left">
-                            <p><strong>S</strong></p>
+                        <td><strong><a id="S"></a>S</strong></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
                         </td>
-                        <td style="text-align: right;" align="left"><a href="#Top"><strong>Top</strong></a></td>
                     </tr>
                     <tr>
                         <td style="text-align: left;" colspan="2" align="left">
                         </td>
                     </tr>
                     <tr>
-                        <td style="text-align: left;" align="left">&nbsp;<strong>T<a id="T"></a></strong></td>
-                        <td style="text-align: right;" align="right">&nbsp;<strong><strong><a
-                                        href="#Top"><strong>Top</strong></a></strong></strong></td>
+                        <td><strong><a id="T"></a>T</strong></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
+                        </td>
                     </tr>
                     <tr>
                         <td style="text-align: left;" colspan="2" align="left">
-                            <p>&nbsp;</p>
-                            <p><a
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/RF%20Transportation%20Reimbursement%20Request%20-%20Same%20Day%20Travel%2010.8.2020.pdf">Transportation
+                                    Reimbursement Request - Same Day Travel (PDF)</a>
+                            </p>
+                            <p>
+                                <a href="#">Travel Advance Request - Overnight Travel (Excel)</a>
+                            </p>
+                            <p>
+                                <a href="#">RF Travel Reimbursement Request - Overnight Travel (Excel)</a>
+                            </p>
+                            <p>
+                                <a href="https://www.newpaltz.edu/media/sponsored-programs/lodgingjustification.pdf">Lodging
+                                    Justification For Over the Per Diem Rate (PDF)</a>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/Justification%20for%20Late%20Travel%20Reimbursement%20Request%20Form.pdf">Justification
+                                    for Late Travel Reimbursement Request Form (PDF)</a>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/Business%20Related%20Travel%20Expense%20Policy%20for%20Employees-Same%20Day%20Travel.pdf">Business
+                                    Related Travel Expense Policy for Employees - Same Day Travel (PDF)</a>
+                            </p>
+                            <p>
+                                <a href="#">Business Transportation Expense Policy for Non-Employees (Word)</a>
+                            </p>
+                            <p>
+                                <a href="https://www.newpaltz.edu/media/sponsored-programs/rf_travel_handbook.pdf">RF
+                                    Travel Handbook - Overnight Travel (PDF)</a>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/declarationofmissingreceiptformword.docx">Declaration
+                                    of Missing Receipt form (Word)</a>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/declaration_of_missing_receipt_form.xlsx">Declaration
+                                    of Missing Receipt form (Excel)</a>
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.newpaltz.edu/media/sponsored-programs/declaration_of_missing_receipt.pdf">Declaration
+                                    of Missing Receipt form (PDF)</a>
+                            </p>
+                            <p>
+                                <a
                                     href="https://www.newpaltz.edu/media/sponsored-programs/faqs_business_related_travel_same_day%20-%20update%20-%20January%205,%202018.pdf">Travel
-                                    FAQS for Same Day Trips</a></p>
-                            <p>Technology Accelerator Fund (TAF)&nbsp;</p>
-                            <p><a href="https://www.newpaltz.edu/media/sponsored-programs/Business%20Related%20Travel%20Expense%20Policy%20for%20Employees-Same%20Day%20Travel.pdf"
-                                    target="_blank">Business Related Travel Expense Policy for Employees - Same Day
-                                    Travel</a></p>
-                            <p><a href="#">Business Transportation Expense Policy for Non-Employees</a></p>
-                            <p><a href="https://www.newpaltz.edu/media/sponsored-programs/rf_travel_handbook.pdf">RF
-                                    Travel Handbook - Overnight Travel</a></p>
+                                    FAQS for Same Day Trips (PDF)</a>
+                            </p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="text-align: left;" align="left">
-                            <p><strong>U<a id="U"></a></strong></p>
+                        <td><strong><a id="U"></a>U</strong></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
                         </td>
-                        <td style="text-align: left;" align="left">&nbsp;</td>
                     </tr>
                     <tr>
                         <td style="text-align: left;" colspan="2" align="left">&nbsp;</td>
                     </tr>
                     <tr>
-                        <td style="text-align: left;" align="left"><strong>V<a id="V"></a></strong></td>
-                        <td style="text-align: right;" align="center">&nbsp;<strong><strong><a
-                                        href="#Top"><strong>Top</strong></a></strong></strong></td>
+                        <td><strong><a id="V"></a>V</strong></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
+                        </td>
                     </tr>
                     <tr>
                         <td style="text-align: left;" colspan="2" align="left">
                         </td>
                     </tr>
                     <tr>
-                        <td style="text-align: left;" align="left">
-                            <p><strong>W<a id="W"></a></strong></p>
+                        <td><strong><a id="W"></a>W</strong></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
                         </td>
-                        <td style="text-align: right;" align="right">&nbsp;<strong><strong><a
-                                        href="#Top"><strong>Top</strong></a></strong></strong></td>
                     </tr>
                     <tr>
                         <td style="text-align: left;" colspan="2" align="left">
                         </td>
                     </tr>
                     <tr>
-                        <td style="text-align: left;" align="left">&nbsp;<strong>X</strong></td>
-                        <td style="text-align: left;" align="left">&nbsp;</td>
+                        <td><strong><a id="X"></a>X</strong></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
+                        </td>
                     </tr>
                     <tr>
                         <td style="text-align: left;" colspan="2" align="left">&nbsp;</td>
                     </tr>
                     <tr>
-                        <td style="text-align: left;" align="left"><strong>Y</strong></td>
-                        <td style="text-align: left;" align="left">&nbsp;</td>
+                        <td><strong><a id="Y"></a>Y</strong></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
+                        </td>
                     </tr>
                     <tr>
                         <td style="text-align: left;" colspan="2" align="left">&nbsp;</td>
                     </tr>
                     <tr>
-                        <td style="text-align: left;" align="left"><strong>Z</strong></td>
-                        <td style="text-align: left;" align="left">&nbsp;</td>
+                        <td><strong><a id="Z"></a>Z</strong></td>
+                        <td style="text-align: right;">&nbsp;&nbsp;<a href="#Top"><strong>Top</strong></a>&nbsp;
+                        </td>
                     </tr>
                     <tr>
                         <td style="text-align: left;" colspan="2" align="left">&nbsp;</td>
                     </tr>
                 </tbody>
             </table>
-            <p style="text-align: right;">&nbsp;</p><br />
-            </div>
-            </div>
-            </div>
+            <p style="text-align: right;">&nbsp;</p><br /> <!-- End of A-Z Index List -->
         </section>
-
     </main><!-- End #main -->
     <!-- Vendor JS Files -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
     <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
-
+    <script>
+        const choices = new Choices('[data-trigger]',
+            {
+                searchEnabled: false
+            });
+    </script>
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>
