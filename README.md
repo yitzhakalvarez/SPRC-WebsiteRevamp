@@ -14,7 +14,7 @@ This repository documents my work done for the SPRC department.
     <a href="mailto:merrillr@newpaltz.edu">Roseann Merrill</a> <br>
     <a href="mailto:hoseltoc@newpaltz.edu">Catherine Hoselton</a>
 3.  **Start Date:** October 2020
-4.  **End Date:** July 2021
+4.  **End Date:** August 2021
 
 # Links:
 
