@@ -16,7 +16,7 @@ This repository documents my work done for the SPRC department.
 3.  **Start Date:** October 2020
 4.  **End Date:** August 2021
 
-# Links:
+# Links
 
 - <a href="https://newpaltz.edu/sponsored_programs-test/">SPRC website testing</a>
 - <a href="https://www.figma.com/proto/M304oso7qZPKhtnjQU73Jt/SPRC-Landing-Page-Mockup?page-id=0%3A1&node-id=5%3A2&viewport=181%2C-55%2C0.04520059749484062&scaling=min-zoom&starting-point-node-id=5%3A2">Figma website protoype</a>
@@ -30,3 +30,11 @@ Application:
 - JavaScript – Used to make the pages interactive.
 - Bootstrap - Used as a front-end framework to make the web pages faster and easier.
 - Figma - Used to design the user interface of the website.
+
+# SPRC Landing Page - before
+
+![before SPRC homepage ](./mockups/oldSPRChomepage.png)
+
+# SPRC Landing Page - after
+
+![before SPRC homepage ](./mockups/newSPRChomepage.png)
