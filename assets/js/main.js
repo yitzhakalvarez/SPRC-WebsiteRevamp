@@ -104,39 +104,113 @@
     zIndex: '50'
   });
 
+  // Back to top button
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {
+      $('.back-to-top').fadeIn('slow');
+    } else {
+      $('.back-to-top').fadeOut('slow');
+    }
+  });
+  $('.back-to-top').click(function () {
+    $('html, body').animate({
+      scrollTop: 0
+    }, 1500, 'easeInOutExpo');
+    return false;
+  });
 
-  // Search Bar 
-  const f = document.getElementById("form");
-  const q = document.getElementById("query");
-  const google = "https://www.google.com/search?q=site%3A+";
-  const site = "https://www.newpaltz.edu/sponsored_programs/";
+  // jQuery counterUp
+  $('[data-toggle="counter-up"]').counterUp({
+    delay: 10,
+    time: 1000
+  });
 
-  function submitted(event) {
-    event.preventDefault();
-    const url = google + site + "+" + q.value;
-    const win = window.open(url, "_blank");
-    win.focus();
-  }
+  // Skills section
+  $('.skills-content').waypoint(function () {
+    $('.progress .progress-bar').each(function () {
+      $(this).css("width", $(this).attr("aria-valuenow") + '%');
+    });
+  }, {
+    offset: '80%'
+  });
 
-  f.addEventListener("submit", submitted);
+  // Porfolio isotope and filter
+  $(window).on('load', function () {
+    var portfolioIsotope = $('.portfolio-container').isotope({
+      itemSelector: '.portfolio-item',
+      layoutMode: 'fitRows'
+    });
+    $('#portfolio-flters li').on('click', function () {
+      $("#portfolio-flters li").removeClass('filter-active');
+      $(this).addClass('filter-active');
+      portfolioIsotope.isotope({
+        filter: $(this).data('filter')
+      });
+    });
+    // Initiate venobox (lightbox feature used in portofilo)
+    $(document).ready(function () {
+      $('.venobox').venobox();
+    });
+  });
 
-  // Search Filter for A-Z index
-  function myFunction() {
-    var input, filter, table, tr, td, i, txtValue;
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();
-    table = document.getElementById("myTable");
-    tr = table.getElementsByTagName("tr");
-    for (i = 0; i < tr.length; i++) {
-      td = tr[i].getElementsByTagName("td")[0];
-      if (td) {
-        txtValue = td.textContent || td.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-          tr[i].style.display = "";
-        } else {
-          tr[i].style.display = "none";
-        }
+  // Portfolio details carousel
+  $(".portfolio-details-carousel").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: true,
+    items: 1
+  });
+
+  // Testimonials carousel (uses the Owl Carousel library)
+  $(".testimonials-carousel").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      768: {
+        items: 2
+      },
+      900: {
+        items: 3
+      }
+    }
+  });
+
+})(jQuery);
+// Search Bar 
+const f = document.getElementById("form");
+const q = document.getElementById("query");
+const google = "https://www.google.com/search?q=site%3A+";
+const site = "https://www.newpaltz.edu/sponsored_programs/";
+
+function submitted(event) {
+  event.preventDefault();
+  const url = google + site + "+" + q.value;
+  const win = window.open(url, "_blank");
+  win.focus();
+}
+
+f.addEventListener("submit", submitted);
+
+// Search Filter for A-Z index
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
       }
     }
   }
-});
+}
