@@ -177,7 +177,7 @@ h6 {
 }
 
 .nav-menu .drop-down li {
-  min-width: 200px;
+  min-width: 150px;
   position: relative;
 }
 
@@ -195,11 +195,58 @@ h6 {
   color: #f58426;
 }
 
+.nav-menu .drop-down .drop-down ul {
+  top: 0;
+  left: calc(100% - 30px);
+}
+
+.nav-menu .drop-down .drop-down > a {
+  padding-right: 315px;
+}
+
+@media (max-width: 1366px) {
+  .nav-menu .drop-down .drop-down ul {
+    left: -90%;
+  }
+  .nav-menu .drop-down .drop-down:hover > ul {
+    left: -100%;
+  }
+}
+
+@media (max-width: 1366px) {
+  .nav-menu .drop-down .drop-down ul {
+    left: -90%;
+  }
+  .nav-menu .drop-down .drop-down:hover > ul {
+    left: -100%;
+  }
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .nav-menu .drop-down .drop-down ul {
+    left: -90%;
+  }
+  .nav-menu .drop-down .drop-down:hover > ul {
+    left: -100%;
+  }
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  .nav-menu .drop-down .drop-down ul {
+    left: -90%;
+  }
+  .nav-menu .drop-down .drop-down:hover > ul {
+    left: -100%;
+  }
+}
+
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
-  top: 15px;
+  top: 8px;
   z-index: 9998;
   border: 0;
   background: none;
@@ -422,8 +469,7 @@ button {
 }
 
 /*--------------------------------------------------------------
-    # Policy and Procedures Page
-    About
+      # Policies and Procedures Page
     --------------------------------------------------------------*/
 section {
   padding: 60px 0;
@@ -482,9 +528,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-    # Policy and Procedures Page
-    A - Z index
---------------------------------------------------------------*/
+      # Policies and Procedures Page
+      A - Z index
+      --------------------------------------------------------------*/
 #index {
   font: bold 100% 'Open Sans', sans-serif;
   margin: 0;
