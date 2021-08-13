@@ -15,6 +15,14 @@ h6 {
   color: #1e1e1e;
 }
 
+a {
+  color: #003e7e;
+}
+a:hover {
+  color: #f58426;
+  text-decoration: none;
+}
+
 .bg-image {
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -44,32 +52,6 @@ h6 {
   vertical-align: middle;
 }
 
-/*------/ Prelaoder /------*/
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999;
-  overflow: hidden;
-  background: #fff;
-}
-
-#preloader:before {
-  content: '';
-  position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #f2f2f2;
-  border-top: 6px solid #0078ff;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  -webkit-animation: animate-preloader 1s linear infinite;
-  animation: animate-preloader 1s linear infinite;
-}
-
 @-webkit-keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
@@ -89,8 +71,8 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-    # Header
-    --------------------------------------------------------------*/
+  # Header
+  --------------------------------------------------------------*/
 #header {
   transition: all 0.5s;
   z-index: 997;
@@ -116,15 +98,9 @@ h6 {
   text-decoration: none;
 }
 
-#header .logo img {
-  padding: 0;
-  margin: 0;
-  max-height: 40px;
-}
-
 /*--------------------------------------------------------------
-    # Navigation Menu
-    --------------------------------------------------------------*/
+# Navigation Menu
+--------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu,
 .nav-menu * {
@@ -177,7 +153,7 @@ h6 {
 }
 
 .nav-menu .drop-down li {
-  min-width: 150px;
+  min-width: 200px;
   position: relative;
 }
 
@@ -200,8 +176,14 @@ h6 {
   left: calc(100% - 30px);
 }
 
+.nav-menu .drop-down .drop-down:hover > ul {
+  opacity: 1;
+  top: 0;
+  left: 100%;
+}
+
 .nav-menu .drop-down .drop-down > a {
-  padding-right: 315px;
+  padding-right: 35px;
 }
 
 @media (max-width: 1366px) {
@@ -211,34 +193,8 @@ h6 {
   .nav-menu .drop-down .drop-down:hover > ul {
     left: -100%;
   }
-}
-
-@media (max-width: 1366px) {
-  .nav-menu .drop-down .drop-down ul {
-    left: -90%;
-  }
-  .nav-menu .drop-down .drop-down:hover > ul {
-    left: -100%;
-  }
-}
-
-/* ----------- Non-Retina Screens ----------- */
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
-  .nav-menu .drop-down .drop-down ul {
-    left: -90%;
-  }
-  .nav-menu .drop-down .drop-down:hover > ul {
-    left: -100%;
-  }
-}
-
-/* ----------- Retina Screens ----------- */
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
-  .nav-menu .drop-down .drop-down ul {
-    left: -90%;
-  }
-  .nav-menu .drop-down .drop-down:hover > ul {
-    left: -100%;
+  .nav-menu .drop-down .drop-down > a:after {
+    content: '\ea9d';
   }
 }
 
@@ -340,8 +296,8 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-    # Intro Section
-    --------------------------------------------------------------*/
+  # Intro Section
+  --------------------------------------------------------------*/
 .intro {
   height: 90vh;
   position: relative;
@@ -428,8 +384,8 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-    # Search Bar Section
-    --------------------------------------------------------------*/
+  # Search Bar Section
+  --------------------------------------------------------------*/
 form {
   background-color: #003f7e;
   width: 300px;
@@ -446,6 +402,7 @@ input {
   height: 100%;
   width: 100%;
   padding: 6px 10px;
+  color: white;
 }
 
 ::placeholder {
@@ -469,8 +426,9 @@ button {
 }
 
 /*--------------------------------------------------------------
-      # Policies and Procedures Page
-    --------------------------------------------------------------*/
+  # Portfolio Management
+  About
+  --------------------------------------------------------------*/
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -525,58 +483,4 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
-}
-
-/*--------------------------------------------------------------
-      # Policies and Procedures Page
-      A - Z index
-      --------------------------------------------------------------*/
-#index {
-  font: bold 100% 'Open Sans', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-#index li {
-  float: left;
-  list-style-type: none;
-  margin: 0.65em 0.3em;
-  padding: 0;
-  width: 4.5em;
-}
-
-a {
-  color: #111;
-  text-decoration: none;
-}
-
-#index a:link,
-#index a:visited {
-  background: #fff;
-  color: #003e7e;
-  display: block;
-  height: 2em;
-  padding: 0.75em 0 0 0;
-  text-align: center;
-  text-decoration: none;
-  width: 3em;
-}
-#index a:hover {
-  background: #f58426;
-  color: #fff;
-  text-decoration: underline;
-}
-
-/*--------------------------------------------------------------
-Search filter for A - Z index
-    --------------------------------------------------------------*/
-#myInput {
-  background-position: 10px 12px;
-  background-repeat: no-repeat;
-  background-color: #003e7e;
-  width: 95%;
-  font-size: 16px;
-  padding: 12px 20px 12px 40px;
-  border: 1px solid #f58426;
-  margin-bottom: 12px;
-  color: white;
 }

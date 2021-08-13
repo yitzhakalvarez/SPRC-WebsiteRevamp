@@ -15,6 +15,13 @@ h6 {
   color: #1e1e1e;
 }
 
+a:link {
+  color: #003e7e;
+}
+a:hover {
+  color: #f58426;
+}
+
 .bg-image {
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -42,32 +49,6 @@ h6 {
 .table-cell {
   display: table-cell;
   vertical-align: middle;
-}
-
-/*------/ Prelaoder /------*/
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999;
-  overflow: hidden;
-  background: #fff;
-}
-
-#preloader:before {
-  content: '';
-  position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #f2f2f2;
-  border-top: 6px solid #0078ff;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  -webkit-animation: animate-preloader 1s linear infinite;
-  animation: animate-preloader 1s linear infinite;
 }
 
 @-webkit-keyframes animate-preloader {
@@ -114,12 +95,6 @@ h6 {
 #header .logo h1 a:hover {
   color: #003e7e;
   text-decoration: none;
-}
-
-#header .logo img {
-  padding: 0;
-  margin: 0;
-  max-height: 40px;
 }
 
 /*--------------------------------------------------------------
@@ -323,7 +298,7 @@ h6 {
   # Intro Section
   --------------------------------------------------------------*/
 .intro {
-  height: 100vh;
+  height: 90vh;
   position: relative;
   color: #fff;
 }
