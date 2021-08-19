@@ -1,10 +1,6 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {
-  background-color: #f5f5f5;
-  color: #4e4e4e;
-}
 
 h1,
 h2,
@@ -13,13 +9,6 @@ h4,
 h5,
 h6 {
   color: #1e1e1e;
-}
-
-a:link {
-  color: #003e7e;
-}
-a:hover {
-  color: #f58426;
 }
 
 .bg-image {
@@ -372,7 +361,7 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
-  # News Section
+  # News & Announcements Section
   --------------------------------------------------------------*/
 .container {
   margin-right: auto;
@@ -399,18 +388,9 @@ a:hover {
   height: 100%;
 }
 
-a {
-  color: #111;
-  text-decoration: none;
-}
-
 h2,
 h4 a {
   text-transform: uppercase;
-}
-
-a:hover {
-  text-decoration: none;
 }
 
 .image-block li > .image-block-inner > a {
@@ -449,7 +429,8 @@ a:hover {
 
 .read-more {
   display: block;
-  text-decoration: underline;
+  text-decoration: none;
+  color: #000000;
   margin-top: 30px;
   font-weight: 600;
 }
@@ -499,133 +480,6 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
-      # FAQs Section
-      --------------------------------------------------------------*/
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.image-block {
-  margin-top: 24px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.image-block-inner {
-  -webkit-box-shadow: 0px 3px 10px 1px rgba(204, 204, 204 0, 1);
-  -moz-box-shadow: 0px 3px 10px 1px rgba(204, 204, 204 0, 1);
-  box-shadow: 0px 3px 10px 1px rgba(204, 204, 204, 1);
-}
-
-.image-block li > .image-block-inner {
-  padding-bottom: 30px;
-  background-color: #fff;
-  height: 100%;
-}
-
-a {
-  color: #111;
-  text-decoration: none;
-}
-
-h2,
-h4 a {
-  text-transform: uppercase;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-.image-block li > .image-block-inner > a {
-  display: block;
-  overflow: hidden;
-}
-
-.image-block li > .image-block-inner > a img {
-  border: 1px solid #e1e1df;
-}
-
-.image-block li > .image-block-inner:hover {
-  background-color: #eee;
-}
-
-.hp-posts-cat {
-  margin-bottom: 13px;
-  margin-top: 35px;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 1rem;
-  letter-spacing: 0.1rem;
-  display: inline-block;
-}
-
-.faqs {
-  font-family: 'Oswald', sans-serif;
-}
-
-.faqs .image-block li > .image-block-inner h4,
-.hp-posts-cat,
-.faqs .image-block li > .image-block-inner p,
-.read-more {
-  padding: 0 28px;
-}
-
-.read-more {
-  display: block;
-  text-decoration: underline;
-  margin-top: 30px;
-  font-weight: 600;
-}
-
-/* Media Queries */
-
-@media (min-width: 992px) {
-  .col-md-5 {
-    width: 41.66667%;
-  }
-}
-
-@media (min-width: 768px) {
-  .image-block li.image-block1 {
-    padding-left: 26px;
-    padding-right: 14.5px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .image-block li > .image-block-inner > a {
-    max-height: 245px;
-  }
-}
-
-@media (min-width: 992px) {
-  .pl-lg-0,
-  .px-lg-0 {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .ml-lg-0,
-  .mx-lg-0 {
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  .faqs h2 {
-    padding-top: 50px;
-  }
-}
-
-/*--------------------------------------------------------------
   # Search Bar Section
   --------------------------------------------------------------*/
 form {
@@ -668,7 +522,7 @@ button {
 }
 
 /*--------------------------------------------------------------
-  # Policy and Procedures Page
+  # Mission Statement 
   About
   --------------------------------------------------------------*/
 section {
@@ -708,7 +562,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #003e7e;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -717,45 +571,6 @@ section {
   margin-bottom: 0;
 }
 
-.about .content h3 {
-  font-weight: 700;
-  font-size: 26px;
-  color: #728394;
-}
-
 .about .content p:last-child {
   margin-bottom: 0;
-}
-
-/*--------------------------------------------------------------
-  # Policy and Procedures Page
-  A - Z index
-  --------------------------------------------------------------*/
-#index {
-  font: bold 100% 'Open Sans', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-#index li {
-  float: left;
-  list-style-type: none;
-  margin: 0.65em 0.3em;
-  padding: 0;
-  width: 4.5em;
-}
-#index a:link,
-#index a:visited {
-  background: #fff;
-  color: #003e7e;
-  display: block;
-  height: 2em;
-  padding: 0.75em 0 0 0;
-  text-align: center;
-  text-decoration: none;
-  width: 3em;
-}
-#index a:hover {
-  background: #f58426;
-  color: #fff;
-  text-decoration: underline;
 }

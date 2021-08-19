@@ -1,11 +1,6 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {
-  background-color: #f5f5f5;
-  color: #4e4e4e;
-}
-
 h1,
 h2,
 h3,
@@ -502,20 +497,6 @@ section {
   left: calc(50% - 20px);
 }
 
-.section-title p {
-  margin-bottom: 0;
-}
-
-.about .content h3 {
-  font-weight: 700;
-  font-size: 26px;
-  color: #728394;
-}
-
-.about .content p:last-child {
-  margin-bottom: 0;
-}
-
 /*--------------------------------------------------------------
       # Policies and Procedures Page
       A - Z index
@@ -534,13 +515,13 @@ section {
 }
 
 a {
-  color: #111;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
 #index a:link,
 #index a:visited {
-  background: #fff;
+  background-color: #f5f5f5;
   color: #003e7e;
   display: block;
   height: 2em;

@@ -1,11 +1,6 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {
-  background-color: #f5f5f5;
-  color: #4e4e4e;
-}
-
 h1,
 h2,
 h3,
@@ -701,21 +696,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #003e7e;
   bottom: 0;
   left: calc(50% - 20px);
-}
-
-.section-title p {
-  margin-bottom: 0;
-}
-
-.about .content h3 {
-  font-weight: 700;
-  font-size: 26px;
-  color: #728394;
-}
-
-.about .content p:last-child {
-  margin-bottom: 0;
 }
