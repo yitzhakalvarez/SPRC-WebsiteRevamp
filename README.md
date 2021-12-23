@@ -36,10 +36,11 @@ Application:
 - Figma - Used to design the user interface of the website.
 - TerminalFour - Used the school's CMS to deploy the website.
 
-# SPRC Landing Page - before
+# Design
+
+## Landing Pages
 
 ![before SPRC homepage ](./mockups/oldSPRChomepage.png)
-
-# SPRC Landing Page - after
-
+_Before_
 ![before SPRC homepage ](./mockups/newSPRChomepage.png)
+_After_
