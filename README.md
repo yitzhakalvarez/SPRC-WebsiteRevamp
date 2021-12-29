@@ -23,7 +23,7 @@ This web project was done for the Office of Sponsored Programs & Research Compli
 # Links
 
 - <a href="https://yitzhakalvarez.com/SPRC-WebsiteRevamp/">SPRC website testing</a>
-- <a href="https://www.figma.com/proto/M304oso7qZPKhtnjQU73Jt/SPRC-Landing-Page-Mockup?page-id=0%3A1&node-id=5%3A2&viewport=181%2C-55%2C0.04520059749484062&scaling=min-zoom&starting-point-node-id=5%3A2">Figma website protoype</a>
+- <a href="https://www.figma.com/proto/M304oso7qZPKhtnjQU73Jt/SPRC-Landing-Page-Mockup?page-id=0%3A1&node-id=5%3A2&viewport=181%2C-55%2C0.049.520059749.549.54062&scaling=min-zoom&starting-point-node-id=5%3A2">Figma website protoype</a>
 
 # Tech
 
@@ -49,11 +49,11 @@ _After_
 
 ## Sponsored Programs & Research Compliance
 
-<img src="./mockups/SPRC/Main Page - SPRC.png" width="35%"></img>
-<img src="./mockups/SPRC/Funding Info.png" width="35%"></img>
-<img src="./mockups/SPRC/Portfolio Management - Contacts.png" width="35%"></img>
-<img src="./mockups/SPRC/Resources - Table of Contents.png" width="35%"></img>
-<img src="./mockups/SPRC/Resources - RF Personnel Services page.png" width="35%"></img>
-<img src="./mockups/SPRC/Resources - RF Accounts Payable-Purchasing page.png" width="35%"></img>
-<img src="./mockups/SPRC/Resources - Policies and Procedures page.png" width="35%"></img>
-<img src="./mockups/SPRC/Resources - Forms page.png" width="35%"></img>
+<img src="./mockups/SPRC/Main Page - SPRC.png" width="49.5%"></img>
+<img src="./mockups/SPRC/Funding Info.png" width="49.5%"></img>
+<img src="./mockups/SPRC/Portfolio Management - Contacts.png" width="49.5%"></img>
+<img src="./mockups/SPRC/Resources - Table of Contents.png" width="49.5%"></img>
+<img src="./mockups/SPRC/Resources - RF Personnel Services page.png" width="49.5%"></img>
+<img src="./mockups/SPRC/Resources - RF Accounts Payable-Purchasing page.png" width="49.5%"></img>
+<img src="./mockups/SPRC/Resources - Policies and Procedures page.png" width="49.5%"></img>
+<img src="./mockups/SPRC/Resources - Forms page.png" width="49.5%"></img>
