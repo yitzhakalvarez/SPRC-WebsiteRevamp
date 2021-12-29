@@ -49,11 +49,11 @@ _After_
 
 ## Sponsored Programs & Research Compliance
 
-<img src="./mockups/SPRC/Main Page - SPRC.png" width="30%"></img>
-<img src="./mockups/SPRC/Funding Info.png" width="30%"></img>
-<img src="./mockups/SPRC/Portfolio Management - Contacts.png" width="30%"></img>
-<img src="./mockups/SPRC/Resources - Table of Contents.png" width="30%"></img>
-<img src="./mockups/SPRC/Resources - RF Personnel Services page.png" width="30%"></img>
-<img src="./mockups/SPRC/Resources - RF Accounts Payable-Purchasing page.png" width="30%"></img>
-<img src="./mockups/SPRC/Resources - Policies and Procedures page.png" width="30%"></img>
-<img src="./mockups/SPRC/Resources - Forms page.png" width="30%"></img>
+<img src="./mockups/SPRC/Main Page - SPRC.png" width="35%"></img>
+<img src="./mockups/SPRC/Funding Info.png" width="35%"></img>
+<img src="./mockups/SPRC/Portfolio Management - Contacts.png" width="35%"></img>
+<img src="./mockups/SPRC/Resources - Table of Contents.png" width="35%"></img>
+<img src="./mockups/SPRC/Resources - RF Personnel Services page.png" width="35%"></img>
+<img src="./mockups/SPRC/Resources - RF Accounts Payable-Purchasing page.png" width="35%"></img>
+<img src="./mockups/SPRC/Resources - Policies and Procedures page.png" width="35%"></img>
+<img src="./mockups/SPRC/Resources - Forms page.png" width="35%"></img>
