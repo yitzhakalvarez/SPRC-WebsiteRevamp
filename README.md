@@ -40,10 +40,13 @@ Application:
 
 ## Landing Pages
 
+##### Before
+
 ![before SPRC homepage ](./mockups/oldSPRChomepage.png)
-_Before_
+
+##### After
+
 ![before SPRC homepage ](./mockups/newSPRChomepage.png)
-_After_
 
 # Mockups
 
