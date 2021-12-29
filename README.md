@@ -49,45 +49,11 @@ _After_
 
 ## Sponsored Programs & Research Compliance
 
-<img src="./mockups/SPRC/Main Page - SPRC.png" width="25%"></img>
-<img src="./mockups/SPRC/About Us - Dropdown.png" width="25%"></img>
-<img src="./mockups/SPRC/About Us - Mission Statement.png" width="25%"></img>
-<img src="./mockups/SPRC/Mission Statement.png" width="25%"></img>
-<img src="./mockups/SPRC/About Us - RF Website.png" width="25%"></img>
-<img src="./mockups/SPRC/About Us - SPRC Staff.png" width="25%"></img>
-<img src="./mockups/SPRC/Find & Apply - How to Find Funding.png" width="25%"></img>
-<img src="./mockups/SPRC/Find & Apply - How to Find Funding-1.png" width="25%"></img>
-<img src="./mockups/SPRC/Funding Info.png" width="25%"></img>
-<img src="./mockups/SPRC/Funding Info - InfoEd 1.png" width="25%"></img>
-<img src="./mockups/SPRC/Funding Info - InfoEd 2.png" width="25%"></img>
-<img src="./mockups/SPRC/Funding Info - InfoEd 3.png" width="25%"></img>
-<img src="./mockups/SPRC/Funding Info - Other Useful Links 1.png" width="25%"></img>
-<img src="./mockups/SPRC/Funding Info - Other Useful Links 2.png" width="25%"></img>
-<img src="./mockups/SPRC/Funding Info - Other Useful Links 3.png" width="25%"></img>
-<img src="./mockups/SPRC/Funding Info - Other Useful Links 4.png" width="25%"></img>
-<img src="./mockups/SPRC/Funding Info - Other Useful Links 5.png" width="25%"></img>
-<img src="./mockups/SPRC/Portfolio Management.png" width="25%"></img>
-<img src="./mockups/SPRC/Portfolio Management - dropdown.png" width="25%"></img>
-<img src="./mockups/SPRC/Portfolio Management - Contacts.png" width="25%"></img>
-<img src="./mockups/SPRC/Portfolio Management - find funding opportunities.png" width="25%"></img>
-<img src="./mockups/SPRC/Portfolio Management - new proposal intake form.png" width="25%"></img>
-<img src="./mockups/SPRC/Portfolio Management - personnel.png" width="25%"></img>
-<img src="./mockups/SPRC/Portfolio Management - OTPS.png" width="25%"></img>
-<img src="./mockups/SPRC/Portfolio Management - Budget Development.png" width="25%"></img>
-<img src="./mockups/SPRC/Resources - highlighted.png" width="25%"></img>
-<img src="./mockups/SPRC/Resources - Table of Contents.png" width="25%"></img>
-<img src="./mockups/SPRC/Resources - RF Personnel Service.png" width="25%"></img>
-<img src="./mockups/SPRC/Resources - RF Personnel Services page.png" width="25%"></img>
-<img src="./mockups/SPRC/Resources - RF Accounts Payable-Purchasing.png" width="25%"></img>
-<img src="./mockups/SPRC/Resources - RF Accounts Payable-Purchasing page.png" width="25%"></img>
-<img src="./mockups/SPRC/Resources - Policies & Procedures.png" width="25%"></img>
-<img src="./mockups/SPRC/Resources - Policies and Procedures page.png" width="25%"></img>
-<img src="./mockups/SPRC/Resources - Forms.png" width="25%"></img>
-<img src="./mockups/SPRC/Resources - Forms page.png" width="25%"></img>
-<img src="./mockups/SPRC/Resources - Tools & Applications.png" width="25%"></img>
-<img src="./mockups/SPRC/Resources - COVID Resources.png" width="25%"></img>
-<img src="./mockups/SPRC/Compliance.png" width="25%"></img>
-<img src="./mockups/SPRC/Compliance - Animal Committee.png" width="25%"></img>
-<img src="./mockups/SPRC/Compliance - Bio-Safety Committee.png" width="25%"></img>
-<img src="./mockups/SPRC/Compliance - Human Research Ethics Board (HREB).png" width="25%"></img>
-<img src="./mockups/SPRC/SPRC - HREB.png" width="25%"></img>
+<img src="./mockups/SPRC/Main Page - SPRC.png" width="30%"></img>
+<img src="./mockups/SPRC/Funding Info.png" width="30%"></img>
+<img src="./mockups/SPRC/Portfolio Management - Contacts.png" width="30%"></img>
+<img src="./mockups/SPRC/Resources - Table of Contents.png" width="30%"></img>
+<img src="./mockups/SPRC/Resources - RF Personnel Services page.png" width="30%"></img>
+<img src="./mockups/SPRC/Resources - RF Accounts Payable-Purchasing page.png" width="30%"></img>
+<img src="./mockups/SPRC/Resources - Policies and Procedures page.png" width="30%"></img>
+<img src="./mockups/SPRC/Resources - Forms page.png" width="30%"></img>
