@@ -42,21 +42,44 @@ Application:
 
 ##### Before
 
-![before SPRC homepage ](./mockups/oldSPRChomepage.png)
+![before SPRC homepage](./mockups/oldSPRChomepage.png)
 
 ##### After
 
-![before SPRC homepage ](./mockups/newSPRChomepage.png)
+![after SPRC homepage](./mockups/newSPRChomepage.png)
 
 # Mockups
 
 ## Sponsored Programs & Research Compliance
 
-<img src="./mockups/SPRC/Main Page - SPRC.png" width="48%"></img>
-<img src="./mockups/SPRC/Funding Info.png" width="48%"></img>
-<img src="./mockups/SPRC/Portfolio Management - Contacts.png" width="48%"></img>
-<img src="./mockups/SPRC/Resources - Table of Contents.png" width="48%"></img>
-<img src="./mockups/SPRC/Resources - RF Personnel Services page.png" width="48%"></img>
-<img src="./mockups/SPRC/Resources - RF Accounts Payable-Purchasing page.png" width="48%"></img>
-<img src="./mockups/SPRC/Resources - Policies and Procedures page.png" width="48%"></img>
-<img src="./mockups/SPRC/Resources - Forms page.png" width="48%"></img>
+##### Main Page
+
+![SPRC Main Page](./mockups/SPRC/MainPage-SPRC.png)
+
+##### Funding Info
+
+![SPRC Main Page](./mockups/SPRC/FundingInfo.png)
+
+##### Portfolio Management
+
+![SPRC Main Page](./mockups/SPRC/PortfolioManagement-Contacts.png)
+
+##### Resources Table of Contents
+
+![SPRC Main Page](./mockups/SPRC/Resources-TableofContents.png)
+
+##### RF Personnel Services
+
+![SPRC Main Page](./mockups/SPRC/Resources-RFPersonnelServicespage.png)
+
+##### RF Accounts Payable/Purchasing
+
+![SPRC Main Page](./mockups/SPRC/Resources-RFAccountsPayable-Purchasingpage.png)
+
+##### Policies and Procedures
+
+![SPRC Main Page](./mockups/SPRC/Resources-PoliciesandProcedurespage.png)
+
+##### Forms
+
+![SPRC Main Page](./mockups/SPRC/Resources-Formspage.png)
